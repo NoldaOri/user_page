@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <!--헤더의 헤드부분-->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+
+
+
+    <title></title>
+</head>
+<body>
+
+    <!--헤더파일 복붙-->
+    <header>
+        <div id="header">
+            <div id="first">
+
+                <img src="images/noldaori_logo_3.jpg" alt="logo" width="120" class="tm-logo" a href="#">
+
+                <div class="search-box">
+                    <input class="search-txt" type="text" name="" placeholder="Type to Search">
+                    <a class="search-btn" href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+
+                <div class="log-section">
+                    <ul>
+                        <li> <a href="#"> 로그인 </a></li>
+                        <li> <a href="#"> 회원가입 </a></li>
+                    </ul>
+                </div>
+
+            </div> <!--첫줄 끝-->
+
+
+            <div id="category" class="cate">
+                <ul>
+                    <li> <a href="#"> 놀다오리 </a></li>
+                    <li> <a href="#"> 실내오락 </a></li>
+                    <li> <a href="#"> 뷰티 </a></li>
+                    <li> <a href="#"> 스포츠 </a></li>
+                    <li> <a href="#"> 힐링 </a></li>
+                    <li> <a href="#"> 19禁 </a></li>
+                    <li> <a href="#"> DIY </a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!--헤더 부분 끝-->
+
+
+
+    <div id="self">
+        <img src="images/user/user_img.png" alt="Avatar" class="avatar">
+        <div class="user_info">
+            <strong>
+                안봉봉 <img src="images/user/Pencil-icon.png" class="edit-icon">
+                <br />
+                평가 개수 : <font color="red"> XX개</font>
+                / 찜한 곳 : <font color="red"> XX개</font><br />
+            </strong>
+
+            <p class="ment">
+                세상의 좋은 것들을 누리며 살고 싶습니다. 좋은 게 좋은거죠.
+            </p>
+
+            <!--탭-->
+
+        </div>
+    </div>
+
+    <div id="content">
+
+        <div id="user-box-menu" style="display:block">
+            <div class="user-tap-bar">
+                <div class="rate" onclick="">
+                    <img src="images/user/evaluation_on_btn.png">
+                </div>
+                <div class="zzim" onclick="">
+                    <img src="images/user/like_btn.png">
+                </div>
+            </div>
+        </div>
+        <!--나의평가박스-->
+        <div id="rate-box">
+            <div id="review-count">
+                <img src="images/user/comment_ic_img.png">&nbsp;
+                <strong>XX개</strong>
+            </div><hr />
+
+
+            <div class="rate_1">
+                <div class="store_name"> <strong>방탈출제로</strong></div>
+                <div class="store_review">
+                    <p>
+                        음...저는 비추에요. 와이파이도 잘 안 터지고 주차장도 없어서 가기 불편해요. 화장실도 더럽...왜 오늘따라 네가 더 예뻐보일까 지금 너에게 반하는중 왜 오늘따라 네가 예뻐보일까
+                        점점 너에게 빠지는중 따따따따따나따 따나 따 따나 왜 이럴까나 어쩌면 이건 사랑일지오 몰라 우우우우우 지금 너에게 반하는중
+                        반하는쥬웅~빠지는쥬웅~
+                    </p>
+
+                    <div class="star_rating">
+                        <div class="overal_rating">
+                            종합 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준1 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준2 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준3 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준4 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div> <br /><br /><br /><hr />
+
+            <div class="rate_1">
+                <div class="store_name"> <strong>방탈출제로</strong></div>
+                <div class="store_review">
+                    <p>
+                        음...저는 비추에요. 와이파이도 잘 안 터지고 주차장도 없어서 가기 불편해요. 화장실도 더럽...왜 오늘따라 네가 더 예뻐보일까 지금 너에게 반하는중 왜 오늘따라 네가 예뻐보일까
+                        점점 너에게 빠지는중 따따따따따나따 따나 따 따나 왜 이럴까나 어쩌면 이건 사랑일지오 몰라 우우우우우 지금 너에게 반하는중
+                        반하는쥬웅~빠지는쥬웅~
+                    </p>
+
+                    <div class="star_rating">
+                        <div class="overal_rating">
+                            종합 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준1 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준2 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준3 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준4 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div> <br /><br /><br /><hr />
+
+            <div class="rate_1">
+                <div class="store_name"> <strong>방탈출제로</strong></div>
+                <div class="store_review">
+                    <p>
+                        음...저는 비추에요. 와이파이도 잘 안 터지고 주차장도 없어서 가기 불편해요. 화장실도 더럽...왜 오늘따라 네가 더 예뻐보일까 지금 너에게 반하는중 왜 오늘따라 네가 예뻐보일까
+                        점점 너에게 빠지는중 따따따따따나따 따나 따 따나 왜 이럴까나 어쩌면 이건 사랑일지오 몰라 우우우우우 지금 너에게 반하는중
+                        반하는쥬웅~빠지는쥬웅~
+                    </p>
+
+                    <div class="star_rating">
+                        <div class="overal_rating">
+                            종합 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준1 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준2 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준3 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준4 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div> <br /><br /><br /><hr />
+
+            <div class="rate_1">
+                <div class="store_name"> <strong>방탈출제로</strong></div>
+                <div class="store_review">
+                    <p>
+                        음...저는 비추에요. 와이파이도 잘 안 터지고 주차장도 없어서 가기 불편해요. 화장실도 더럽...왜 오늘따라 네가 더 예뻐보일까 지금 너에게 반하는중 왜 오늘따라 네가 예뻐보일까
+                        점점 너에게 빠지는중 따따따따따나따 따나 따 따나 왜 이럴까나 어쩌면 이건 사랑일지오 몰라 우우우우우 지금 너에게 반하는중
+                        반하는쥬웅~빠지는쥬웅~
+                    </p>
+
+                    <div class="star_rating">
+                        <div class="overal_rating">
+                            종합 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준1 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준2 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준3 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준4 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div> <br /><br /><br /><hr />
+
+            <div class="rate_1">
+                <div class="store_name"> <strong>방탈출제로</strong></div>
+                <div class="store_review">
+                    <p>
+                        음...저는 비추에요. 와이파이도 잘 안 터지고 주차장도 없어서 가기 불편해요. 화장실도 더럽...왜 오늘따라 네가 더 예뻐보일까 지금 너에게 반하는중 왜 오늘따라 네가 예뻐보일까
+                        점점 너에게 빠지는중 따따따따따나따 따나 따 따나 왜 이럴까나 어쩌면 이건 사랑일지오 몰라 우우우우우 지금 너에게 반하는중
+                        반하는쥬웅~빠지는쥬웅~
+                    </p>
+
+                    <div class="star_rating">
+                        <div class="overal_rating">
+                            종합 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준1 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준2 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준3 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="_rating">
+                            기준4 &nbsp;
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div> <br /><br /><br /><hr />
+        </div>
+
+        <br /><br />
+
+        <!--찜한목록박스-->
+    </div>
+
+</body>
+
+</html>
+
+
+</html>
